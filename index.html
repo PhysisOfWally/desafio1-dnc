@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Desafio 1: Landing Page</title>
+</head>
+<body>
+    <!-- PROJETO 1 - DNC -->
+    <!--MENU PRINCIPAL-->
+    <div id="menu-principal">
+        <h1 id="titulo-menu-principal">Tradição em projetos de arquitetura</h1>
+        <p id="texto-menu-principal">Arquitetura residencial e comercial.</p>
+    </div>
+    <!--INFORMAÇÕES-->
+    <div id="menu-informacional">
+        <div> 
+            <p class="bolder">850<br><p class="text">empreendimentos construídos</p></p> 
+        </div>
+        <div>
+            <p class="bolder"> 40 <br><p class="text">anos de mercado e experiência</p></p>                      
+        </div>
+        <div>
+            <p class="bolder">2,000,000<br><p class="text">m² em projetos construídos</p></p>
+        </div>
+    </div>
+    <!--HISTÓRIA-->
+    <div id="historia">
+        <div id="texto-historia">
+            <h2>Arquitetos com História e Experiência.</h2> <br>
+            <p>Nós realizamos desde 2002 projetos e gerenciamento de obras. <br> Com mais de 800 projetos e 2.000.000 de m² construídos, tendo <br> como principal proposta transformar em realidade os sonhos de <br> seus clientes, criando projetos personalizados, unindo a tradição <br> e a modernidade em nossos projetos.</p>
+        </div>
+        <img id="img-historia" src="imagens/img-historia.svg" alt="" width="420" height="400">
+    </div>
+    <!--FORMULÁRIO-->
+    <div id="formulario">
+      <h3 id="titulo-form">Conheça mais sobre nossos serviços:</h3>  <br>
+      <form action="https://api.sheetmonkey.io/form/siAz2cuZqPnobFkdgANErB" method="post">
+        <input type="text" placeholder="Nome" name="Name" id="nome" required> <br>
+        <input type="text" placeholder="E-mail" name="Email" id="email" required> <br>
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time">
+        <button type="submit">Fale Conosco</button>
+      </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
